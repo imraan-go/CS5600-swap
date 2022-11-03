@@ -2,17 +2,12 @@
 
 
 ## Question 1
-
+Need a single register for top page base register
 ## Question 2
-
+Three memory access are needed.
 ## Question 3
 
-## Question 4
-
-## Question 5
-
-## Question 6
-
+It depends. Top level page directory has temporal locality because it will be accessed everytime. Page table has spatial locality.
 
 
 
