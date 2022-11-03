@@ -4,6 +4,14 @@
 ## Question 1
 Need a single register for top page base register
 ## Question 2
+0x611c -> 0b 11000 01000 11100
+0b11000 -> 24, 0b01000 -> 8, 0b11100 -> 28
+pages[108][24] -> 0xa1 -> 0b 1 0100001, valid.
+0b0100001 -> 33
+pages[33][8] -> 0xb5 -> 0b1 0110101, valid.
+0b0110101 -> 53
+pages[53][28] -> 0x8 -> 8
+
 Three memory access are needed.
 ## Question 3
 
